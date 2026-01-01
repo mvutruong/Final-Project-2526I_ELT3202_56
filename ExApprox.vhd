@@ -81,7 +81,6 @@ begin
 					done <= '1';
 					if start = '0' then					-- CPU ha start de quay ve IDLE
 						state <= IDLE;
-						done <= '0';
 					end if;
 			end case;
 		end if;
